@@ -1,0 +1,45 @@
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    /* overflow: hidden; /* Disables scrollbars on the header frame. To enable scrollbars, change "hidden" to "scroll" */
+    background: #c752de;
+}
+#nav {
+    color: #c752de
+    !important;
+}
+main {
+    position: fixed;
+    top: 120px; /* Set this to the height of the header */
+    left: 50px;
+    right: 5px;
+    bottom: 0;
+    overflow: auto;
+    background: #fff;
+}
+p {
+    color: black /* color: black #0a0a0a */
+    !important;
+}
+/* Bootstrap Navbar colors */
+.navbar-brand span {
+    color: #c752de
+    !important;
+}
+.navbar-nav a{
+    color: black
+    !important;
+}
+/* iframe Embed PDF setting */
+#rPDF {
+    width: 99%;
+    height: 975px;
+}
+/* email button */
+h1 {
+    text-align: center;
+    margin: 35px 0 20px 0 !important;
+  }
