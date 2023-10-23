@@ -43,3 +43,12 @@ h1 {
     text-align: center;
     margin: 35px 0 20px 0 !important;
   }
+.blink {
+    animation: blinker 1.5s linear infinite;
+    transition: 0.5;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
